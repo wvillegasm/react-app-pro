@@ -1,7 +1,7 @@
-import { Navigation } from './routes/Navigation';
+import { LazyNav } from './01-lazyload/components/LazyNav';
 
 function App() {
-  return <Navigation />;
+  return <LazyNav />;
 }
 
 export default App;
