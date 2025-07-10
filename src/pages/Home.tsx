@@ -1,3 +1,5 @@
+import { Counter } from '../01-lazyload/components/Counter';
+
 export const Home = () => {
   return (
     <div className='page'>
@@ -11,6 +13,9 @@ export const Home = () => {
           <li>ESLint and Prettier configured</li>
           <li>React Router for navigation</li>
         </ul>
+
+        <h3>Counter</h3>
+        <Counter />
       </div>
     </div>
   );
